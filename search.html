@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="index.html">Главная</a>
+    <a href="registration.html">Регистрация</a>
+    <a href="authorization.html">Авторизация</a>
+    <a href="search.html">Поиск</a>
+
+    <form action="https://tests.fomenko.top/echo/index.php">
+        <div>
+            <label for="auto">Тип авто</label>
+            <select name="auto" id="auto">
+                <option value="Любой">Любой</option>
+                <option value="Легковой">Легковой</option>
+                <option value="Мото">Мото</option>
+                <option value="Грузовик">Грузовик</option>
+                <option value="Спецтехника">Спецтехника</option>
+                <option value="Автобусы">Автобусы</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="brand">Марка авто</label>
+            <select name="brand" id="brand">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Bentley">Bentley</option>
+                <option value="Ford">Ford</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Volkswagen">Volkswagen</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="country">Страна производитель</label>
+            <select name="country" id="country">
+                <option value="Германия">Германия</option>
+                <option value="Япония">Япония</option>
+                <option value="Франция">Франция</option>
+                <option value="Италия">Италия</option>
+                <option value="США">США</option>
+                <option value="Китай">Китай</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="price-from">Цена</label>
+            <input type="text" name="price-from" id="price-from" placeholder="от">
+            <input type="text" name="price-to" id="price-to" placeholder="до">
+        </div>
+
+        <div>
+            <label for="year-from">Год выпуска</label>
+            <input type="text" name="year-from" id="year-from" placeholder="от">
+            <input type="text" name="year-to" id="year-to" placeholder="до">
+        </div>
+
+        <div>
+
+            <p>Состояние авто:</p>
+
+            <label for="condition-1">
+                <input type="checkbox" name="Битая" id="condition-1">Битая
+            </label>
+
+            <label for="condition-2">
+                <input type="checkbox" name="В кредите" id="condition-2">В кредите
+            </label>
+
+            <label for="condition-3">
+                <input type="checkbox" name="Нерастаможенная" id="condition-3">Нерастаможенная
+            </label>
+        </div>
+
+        <div>
+            <label for="fuel">Тип топлива</label>
+            <select name="fuel" id="fuel">
+                <option value="Бензин">Бензин</option>
+                <option value="Газ">Газ</option>
+                <option value="Дизель">Дизель</option>
+                <option value="Газ/Бензин">Газ/Бензин</option>
+                <option value="Гибрид">Гибрид</option>
+                <option value="Электро">Электро</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="box">Тип коробки передач</label>
+            <select name="box" id="box">
+                <option value="Автомат">Автомат</option>
+                <option value="Робот">Робот</option>
+                <option value="Механика">Механика</option>
+                <option value="Вариатор">Вариатор</option>
+            </select>
+        </div>
+
+        <div>
+
+            <p>Цвет:</p>
+
+            <label for="grey">
+                <input type="radio" name="color" id="grey" data-label="Серый" value="grey">Серый
+            </label>
+
+            <label for="black">
+                <input type="radio" name="color" id="black" data-label="Черный" value="black">Черный
+            </label>
+
+            <label for="brown">
+                <input type="radio" name="color" id="brown" data-label="Коричневый" value="brown">Коричневый
+            </label>
+
+            <label for="white">
+                <input type="radio" name="color" id="white" data-label="Белый" value="white">Белый
+            </label>
+
+        </div>
+
+        <div>
+            <label for="comfort">Комфорт</label>
+            <select name="comfort" id="comfort">
+                <option value="Люк">Люк</option>
+                <option value="Кожаный салон">Кожаный салон</option>
+                <option value="Кондиционер">Кондиционер</option>
+                <option value="Подогрев седенья">Подогрев седенья</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</body>
+
+</html>
